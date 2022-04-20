@@ -1,0 +1,20 @@
+name,ring,quadrant,isNew,description
+Bitbucket,Adopt,Platforms,FALSE,<p>For sourcecontrol and deployment pipelines</p>
+Jenkins,Hold,Platforms,FALSE,<p>For deployment pipelines</p>
+Cloudwatch,Adopt,Platforms,FALSE,<p>For Logging with retention policy</p>
+Parameter Store,Adopt,Platforms,FALSE,<p>Secrets management</p>
+Typescript,Adopt,languages-and-frameworks,FALSE,<p>Our development language of choice going forwards</p>
+Javascript,Hold,languages-and-frameworks,FALSE,<p>For small non-complex lambdas</p>
+Java Spring,Hold,languages-and-frameworks,FALSE,<p>?</p>
+React,Adopt,languages-and-frameworks,FALSE,"<p><strong><a href=""https://reactjs.org"">React</a></strong></p>"
+Serverless,Adopt,languages-and-frameworks,FALSE,<p>For building all our infrastructure</p>
+Cloudformation,Adopt,languages-and-frameworks,FALSE,<p>What kind of infrastructure do we use this for</p>
+AWS - Lambda,Adopt,Platforms,FALSE,<p>For compute. Low cost of ownership and high integration with AWS.</p>
+Node,Adopt,languages-and-frameworks,FALSE,<p></p>
+Fargate,Hold,Platforms,FALSE,<p>For containers when using languages not supported by AWS Lambda. In this case Java spring boot</p>
+Swagger,Adopt,Tools,FALSE,<p>For documentation of REST API's</p>
+GraphQL,Assess,Platforms,TRUE,<p></p>
+Gemfury,Adopt,Tools,TRUE,<p>NPM private repository</p>
+AWS - S3,Adopt,Platforms,TRUE,<p>For storing files</p>
+AWS - DynamoDB,Adopt,Platforms,TRUE,<p>Default data store. Great for storing data accessed by key-value pair</p>
+Scrum,Adopt,Techniques,FALSE,<p>Vanilla scrum</p>
