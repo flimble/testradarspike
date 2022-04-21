@@ -21,4 +21,3 @@ AWS - S3,Adopt,Platforms,TRUE,<p>For storing files</p>
 AWS - DynamoDB,Adopt,Platforms,TRUE,<p>Default data store. Great for storing data accessed by key-value pair</p>
 Scrum,Adopt,Techniques,FALSE,<p>Vanilla scrum</p>
 Uptrends,Hold,Platforms,FALSE,<p>Health check (ping and scenarios) against production frontend</p>
-
