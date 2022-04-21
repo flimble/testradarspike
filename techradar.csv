@@ -18,6 +18,6 @@ Gemfury,Adopt,Tools,TRUE,<p>NPM private repository</p>
 AWS - S3,Adopt,Platforms,TRUE,<p>For storing files</p>
 AWS - DynamoDB,Adopt,Platforms,TRUE,<p>Default data store. Great for storing data accessed by key-value pair</p>
 Scrum,Adopt,Techniques,FALSE,<p>Vanilla scrum</p>
-Dynatrace,Assess,Platforms,TRUE,<p>Application Performance Monitoring</p>
+Dynatrace,Trial,Platforms,TRUE,<p>Application Performance Monitoring</p>
 Uptrends,Hold,Platforms,FALSE,<p>Health check (ping and scenarios) against production frontend</p>
-LaunchDarkly,Assess,Platforms,FALSE,<p>Feature flagging and possibly for A/B testing</p>
+LaunchDarkly,Assess,Platforms,FALSE,<p>Feature flagging and possibly for A/B testing. See <a href="https://launchdarkly.com/">launchdarkly website for details</p><p>This is <strong>NOT</strong> to be used for long term feature toggles where config is preferred</p>
