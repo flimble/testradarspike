@@ -1,6 +1,6 @@
 name,ring,quadrant,isNew,description
 Bitbucket,Adopt,Platforms,FALSE,<p>For sourcecontrol and deployment pipelines</p>
-Dynatrace,Assess,Platforms,TRUE,<p>Application Performance Monitoring</p>
+Dynatrace,Trial,Platforms,TRUE,<p>Application Performance Monitoring</p>
 LaunchDarkly,Assess,Platforms,FALSE,<p>Feature flagging and possibly for A/B testing. See <a href="https://launchdarkly.com/">launchdarkly website for details</p><p>This is <strong>NOT</strong> to be used for long term feature toggles where config is preferred</p>
 Jenkins,Hold,Platforms,FALSE,<p>For deployment pipelines</p>
 Cloudwatch,Adopt,Platforms,FALSE,<p>For Logging with retention policy</p>
